@@ -52,3 +52,49 @@ what is the result of the following ``` say_what[-1] ```
 - [ ] ["H"]
 - [ ] ["HelloMike"]
 - [x] ["Hello","Mike"]
+
+
+
+### Dictionaries
+1. What are the keys of the following dictionary: ``` {"a":1,"b":2} ```
+
+- [x] "a","b"
+- [ ] 1,2
+
+2. Consider the following Python Dictionary:
+
+```python 
+Dict={"A":1,"B":"2","C":[3,3,3],"D":(4,4,4),'E':5,'F':6}
+```
+
+What is the result of the following operation: ``` Dict["D"] ```
+
+
+- [ ] [3,3,3]
+- [x] (4, 4, 4)
+- [ ] 1
+
+### Sets
+1. Consider the following set: ``` {"A","A"} ```, what will the result be when the set is created? 
+
+- [x]  {"A"} 
+- [ ]  {"A","A"}
+
+2. What is the result of the following: ``` type(set([1,2,3])) ```
+
+- [x] set
+- [ ] list
+
+3. What method do you use to add an element to a set?
+
+- [ ] append
+- [x] add
+- [ ] extend
+
+4. What is the result of the following operation : ``` {'a','b'} &{'a'} ```
+
+- [ ] {'a','b'}
+- [x] {'a'}
+
+
+
