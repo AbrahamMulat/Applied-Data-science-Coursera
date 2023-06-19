@@ -137,4 +137,64 @@ Print(['a','b','c'])
 
 
 ## Exception Handling
+
+1. Why do we use exception handlers?
+
+- [ ] Read a file
+- [x] Catch errors within a program
+- [ ] Terminate a program
+- [ ] Write a file
+
+2. What is the purpose of a try…except statement?
+
+- [ ] Executes the code block only if a certain condition exists
+- [x] Catch and handle exceptions when an error occurs
+- [ ] Crash a program when errors occur
+- [ ] Only executes if one condition is true
+
+
 ## Objects and Classes
+
+1. What is the type of the following?
+
+``` ["a"] ```
+- [ ] str
+- [x] list
+
+2. What does a method do to an object? 
+
+- [x] Changes or interacts with the object
+- [ ] Returns a new values 
+
+3. We create the object:
+
+```python
+Circle(3,'blue')
+```
+What is the color attribute set to?
+
+- [ ] 2
+- [x] 'blue'
+
+
+4. What is the radius attribute after the following code block is run?
+```python
+RedCircle=Circle(10,'red')
+
+RedCircle.radius=1
+```
+- [ ] 10
+- [x] 1
+- [ ] 'red'
+
+5. What is the radius attribute
+after the following code block is run?
+```python
+BlueCircle=Circle(10,'blue')
+
+BlueCircle.add_radius(20)
+```
+- [ ] 10
+- [ ] 20
+- [x] 30
+
