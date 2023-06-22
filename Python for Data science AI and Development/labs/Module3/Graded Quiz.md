@@ -14,7 +14,7 @@ else:
 ```
 
 
-- [ ] Go Mike
+- [x] Go Mike
 - [ ] Mike
 - [ ] Stop Mike
 
@@ -25,7 +25,7 @@ x=1
 x>5
 ```
 - [ ] True
-- [ ] False
+- [x] False
 
 3. What is the output of the following few lines of code?
 ```python
@@ -34,7 +34,7 @@ while(x<2):
     print(x)
     x=x+1   
 ```
-- [ ] 0 <br>1
+- [x] 0 <br>1
 - [ ] 0 <br>1<br>2
 - [ ] 0 <br> 1 <br>3<br>4
 
@@ -54,7 +54,7 @@ class Points(object):
 
 ```
 - [ ] x=1;
-- [ ]  x=1 y=2
+- [x]  x=1 y=2
 - [ ]  y=2
 
 5. What is the output of the following few lines of code?
@@ -63,7 +63,7 @@ class Points(object):
 for i,x in enumerate(['A','B','C']):
     print(i+1,x)
 ```
-- [ ] 1 A <br>2 B <br>3 C
+- [x] 1 A <br>2 B <br>3 C
 - [ ] 0 A <br> 1 B <br>2 C
 - [ ] 0 AA <br> 1 BB <br>2 CC
 
@@ -83,7 +83,7 @@ class Points(object):
 ```
 
 - [ ] x= 1 y=2
-- [ ] x= A  y=2
+- [x] x= A  y=2
 - [ ] x=A, y=B
 
 7. Consider the function step, when will the function return a value of 1?
@@ -96,7 +96,7 @@ def step(x):
         y=0
     return y
 ```
-- [ ] if x is larger than 0
+- [x] if x is larger than 0
 - [ ] if x is equal to or less then zero
 - [ ] if x is less than zero 
 
@@ -110,34 +110,22 @@ def do(x):
 
 print(do(1))
 ```
-- [ ] 2
+- [x] 2
 - [ ] 1
 - [ ] NameError: name 'a' is not defined
 
 9. Write a function name add that takes two parameter a and b, then return the output of  a + b (Do not use any other variable! You do not need to run it. Only write the code about how you define it.)
+Solution: 
 ```python
 def add(a, b):
     return a + b
-Reset
-Correct
-Good job!
+```
 
-10.
-Question 10
-Why is it best practice to have multiple except statements with each type of error labeled correctly?
+10. Why is it best practice to have multiple except statements with each type of error labeled correctly?
 
-1 / 1 point
-
-Ensure the error is caught so the program will terminate
+- [ ] Ensure the error is caught so the program will terminate
+- [x] In order to know what type of error was thrown and the location within the program
+- [ ] To skip over certain blocks of code during execution
+- [ ] It is not necessary to label errors
 
 
-In order to know what type of error was thrown and the
-location within the program
-
-
-To skip over certain blocks of code during execution
-
-
-It is not necessary to label errors
-
-Correct
